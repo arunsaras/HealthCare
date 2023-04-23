@@ -82,7 +82,6 @@ function App() {
     Register: async () => {
       let userToken;
       try {
-        userToken = 'uyhoyy';
         await AsyncStorage.setItem('userToken', '');
       } catch (error) {
         // Error saving data
